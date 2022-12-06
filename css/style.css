@@ -27,6 +27,8 @@ p {
     font-family: "work sans", sans-serif;
     font-size: 1rem;
     color: #838C3F ;
+    padding: 1rem 20px 0.5rem 20px;
+    line-height: 1.2;
 }
 
 h1, h2, nav {
@@ -45,12 +47,25 @@ h2 {
     font-size: 1.563rem;
 }
 
+/* blackquote styling */
+
+blockquote {
+    font-family: "work sans", sans-serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    color: #838C3F;
+    background: #F2D785;
+    border-radius: 40px;
+    padding: 2em 2.5em;
+}
+
 
 /*-- images --*/ 
 
 .headerimg {
     display: block;
-    padding: 0;
+    padding-left: 0%;
     width: 100%;
     max-width: 100%;
     padding-top: 2.5rem;
@@ -58,10 +73,12 @@ h2 {
 
 img {
     display: block;
-    margin: 2rem 0 2em 0;
+    margin: 1rem 0 2em 0;
     padding: 0;
     max-width: 100%;
 }
+
+
 
 /* subtitles */
     .author {
@@ -158,3 +175,33 @@ hr {
 }
 
 
+
+/*icon*/
+
+.backtotop {
+    display: block;
+    margin: auto;
+}
+
+/*footer*/ 
+
+footer {
+    background-color: #838C3F;
+    padding: 3rem 0;
+}
+
+footer p {
+    color: #F2D785;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    width: 60%;
+    margin: auto;
+}
+
+
+
+footer ul li {
+    display: inline-block;
+    margin: 0 auto;
+}
